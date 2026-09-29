@@ -1,6 +1,6 @@
 # Smart Guitar Capo 
 
-###[CURRENTLY IN BEGINNING STAGES]
+### **CURRENTLY IN BEGINNING STAGES**
 
 A hybrid hardware-software project that combines a 3D-printed guitar capo with embedded IoT hardware and web-based audio analysis to help guitar users see which note they are currently playing via electronic status display. In other words, its an intelligent guitar capo equipped with embedded sensors and Bluetooth connectivity. Smart Capo detects real-time fret position, monitors string tension and tuning accuracy, and syncs seamlessly with a mobile companion app for auto-transposition, tabs, and performance analytics.
 
