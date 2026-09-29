@@ -33,3 +33,35 @@ A hybrid hardware-software project that combines a 3D-printed guitar capo with e
 ---
 
 ## System Architecture
+---
+
+## 🛠️ Hardware & Component List
+
+| Component | Description | Recommended Part |
+| :--- | :--- | :--- |
+| **Microcontroller** | BLE-enabled, low-power MCU | ESP32-C3 / ESP32-S3 |
+| **Position Sensor** | Contact/fret sensing module | Force Sensitive Resistor (FSR) / Capacitive Touch |
+| **Pressure Sensor** | Clamp force measurement | Mini strain gauge / FSR |
+| **Display** | On-capo feedback | 0.96" OLED or Multi-color LED bar |
+| **Power** | Rechargeable LiPo battery | 3.7V 150mAh + TP4056 Charger |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+* **Firmware development:** [PlatformIO](https://platformio.org/) or [Arduino IDE](https://www.arduino.cc/en/software)
+* **Mobile app development:** [Flutter](https://flutter.dev/) or [React Native](https://reactnative.dev/)
+* **Hardware toolchain:** Serial drivers (CP210x / CH340) for your microcontroller
+
+---
+
+### Firmware Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/smart-guitar-capo.git](https://github.com/dgarciaperales/smart-capo.git)
+   cd smart-capo/firmware
